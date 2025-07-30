@@ -1,0 +1,68 @@
+html {
+  background-color: rgb(26, 26, 26);
+  color: #D5D5D5; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.weather-card {
+  background-color: #7D8CEE; 
+  padding: 30px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 100%;
+  max-width: 400px; 
+  margin-bottom: 20px; 
+  box-sizing: border-box;
+}
+
+.weather-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #222831;
+}
+
+.weather-card p {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: #D5D5D5;
+}
+
+.weather-card #temperature {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #222831; 
+}
+
+.weather-card #weatherIcon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 10px;
+  display: block; 
+}
+
+button { 
+  background-color: #222831; 
+  color: #D5D5D5; 
+  padding: 12px 25px;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
